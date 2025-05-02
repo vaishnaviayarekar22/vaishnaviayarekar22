@@ -77,82 +77,180 @@ Feel free to check them out and leave any feedback!
 ![Profile Visits](https://komarev.com/ghpvc/?username=your-github-username&color=green)
 
 ---
+<h3 align="center">AI/ML & Data Science</h3>
+<div align="center">
+  <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="5" align="center" style="color: white;">Languages & Libraries</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="50" height="50"/><br>Python
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://cdn.worldvectorlogo.com/logos/numpy-1.svg" alt="NumPy" width="50" height="50"/><br>NumPy
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://github.com/valohai/ml-logos/blob/master/pandas.svg" alt="Pandas" width="80" height="50"/><br>Pandas
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://github.com/KenanGain/KenanGain/blob/main/icons/Tensorflow.gif" alt="TensorFlow" width="80" height="70" /><br>TensorFlow
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="50" height="50"/><br>PyTorch
+      </td>
+    </tr>
+  </tbody>
+ </table>
+</div>
 
-## 🔗 Featured Repositories
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="3" align="center" style="color: white;">Frameworks & Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/LangChain_logo.png" alt="LangChain" width="80" height="50"/><br>LangChain
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://ollama.ai/public/ollama.png" alt="Ollama" width="50" height="60"/><br>Ollama
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://github.com/run-llama/logos/blob/main/LlamaLogo%20Square.png" alt="LlamaIndex" width="50" height="50"/><br>LlamaIndex
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-Here are some repositories I would like to highlight:
+<h3 align="center">AI Tools & Prompt Engineering</h3>
+<div align="center">
+ <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="6" align="center" style="color: white;">AI Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="50" height="50" alt="ChatGPT"/><br>ChatGPT
+      </td>
+       <td align="center" style="border: none;">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/claude-ai-icon.png" width="50" height="50" alt="Claude (Anthropic)"/><br>Claude (Anthropic)
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://github.com/KenanGain/KenanGain/blob/main/icons/Gemini.gif" alt="Gemini" width="80" height="80" /><br>Google Gemini
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="50" height="50" alt="Hugging Face"/><br>Hugging Face
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" width="80" height="50" alt="Meta Llama"/><br>Meta Llama
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://asset.brandfetch.io/idfDTLvPCK/idbbhgStc3.svg" width="80" height="50" alt="Cohere"/><br>Cohere
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-- **[Repo 1](link-to-repo)**: A description of this repository and why it’s important.
-- **[Repo 2](link-to-repo)**: A description of this repository and its purpose.
-- **[Repo 3](link-to-repo)**: A description of this repository and what makes it special.
+<h3 align="center">Streaming & Video Editing</h3>
 
----
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="2" align="center" style="color: white;">Streaming Platforms</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://cdn.worldvectorlogo.com/logos/twitch-logo-2019.svg" width="50" height="50" alt="Twitch"/><br>Twitch
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" width="50" height="50" alt="YouTube"/><br>YouTube
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-## 🏆 Achievements
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th align="center" style="color: white;">Streaming Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/OBS_Studio_Logo.svg" width="50" height="50" alt="OBS"/><br>OBS
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-I’m proud of the following milestones in my tech journey:
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="3" align="center" style="color: white;">Video Editing Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg" width="50" height="50" alt="Adobe Photoshop"/><br>Adobe Photoshop
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" width="50" height="50" alt="Adobe Premiere Pro"/><br>Adobe Premiere Pro
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://cdn.worldvectorlogo.com/logos/after-effects-1.svg" width="50" height="50" alt="Adobe After Effects"/><br>Adobe After Effects
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-- **Completed [Course/Certification]** in [Technology/Language].
-- **Winner of [Hackathon/Competition Name]**.
-- **Contributed to [Open-Source Project Name]**.
-- **Speaker at [Event/Conference Name]**.
+<h2 align="center">📫 Let's Connect!</h2>
 
----
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">
+      <a href="mailto:rafikshah3262@gmail.com" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=sigmail&subtitle=rafikshah3262@gmail.com&size=square" alt="Kenan Gain" style="margin: 10px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://wa.me/917028352298" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=India-7028352298&size=square" alt="India-+91-702-835-2298" style="margin: 10px;">
+      </a>
+    </td>
+  </tr>
+</table>
 
-## 🌱 Ongoing Learning
+<br>
 
-I’m constantly learning and evolving. Right now, I’m expanding my knowledge in:
+<h3>
+<div align="center">
+  ⭐️ From [RAFIKSHA](https://github.com/RAFIKSHA) | Let's innovate together! <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="60px" height="30px">
+</div>
+</h3>
 
-- **[Topic/Technology]**: [How you're learning it].
-- **[Topic/Technology]**: [How you're learning it].
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%">
 
-I'm also exploring new books, articles, and tutorials on **[related field/technology]**.
-
----
-
-## 🎯 Fun Facts
-
-- 🎮 I love playing coding games like [name any games you enjoy].
-- 📚 In my free time, I enjoy reading tech blogs, listening to podcasts, and learning new things.
-- 🎥 I also have a YouTube channel where I share tech tutorials! [Your YouTube Channel Link]
-
----
-
-## 📬 Contact Me
-
-If you'd like to collaborate, ask questions, or just chat, feel free to reach out:
-
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](your-linkedin-profile-link)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-
----
-
-## 📚 Learning Resources
-
-Here are a few amazing learning platforms I use to expand my knowledge:
-
-- [Coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org/)
-- [FreeCodeCamp](https://www.freecodecamp.org/)
-- [Udemy](https://www.udemy.com/)
-
----
-
-## 💬 Testimonials & Feedback
-
-Here’s what others have said about my work:
-
-> *"[Testimonial from a collaborator, mentor, or teacher]"*  
-> – [Name, Position]
-
-> *"[Another testimonial]"*  
-> – [Name, Position]
-
----
-
-Thank you for visiting my profile! Feel free to explore my repositories, reach out, and let’s connect! 😊
-
----
 
 #### This profile was created with ❤️ by [Your Name].
