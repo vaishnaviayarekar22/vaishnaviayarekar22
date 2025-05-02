@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Vaishnavi 👋
 
 Welcome to my GitHub profile! I am a passionate student learning about [mention your field of study, e.g., Computer Science, Data Science, Web Development, etc.]. I love to work on interesting projects, learn new technologies, and collaborate with others. Here's a little bit about me and what I'm working on:
 
