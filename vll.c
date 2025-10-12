@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+struct node
+{
     int data;
     struct node *nxt;
-} *st;
+}*st;
 
 int insert_at_start() {
     struct node *t;
@@ -19,7 +20,7 @@ int insert_at_start() {
     printf("Enter the number: ");
     scanf("%d", &num);
 
-    t->data = num;
+   t->data = num;
     t->nxt = st;
     st = t;
     return 1;
@@ -106,6 +107,101 @@ while(temp->nxt!=NULL)
        return 1;
 
 }
+
+int insert_at_given_location()
+{
+    int pos,num;
+    struct node *t,*temp;
+    printf("Enter the data ");
+    scanf("%d",&num);
+    t=(struct node*)malloc(sizeof(struct node));
+    t->data=num;
+    printf("Enter the position where you want to enter the data");
+    scanf("%d",&pos);
+    if(pos==1)
+    {
+        t->nxt=st;
+        st=t;
+    }
+    else
+    {
+        temp=st;
+    for(int i=1;i<pos-1&&temp!=NULL;i++)
+        temp=temp->nxt;
+    if(temp==NULL)
+    {
+        printf("Invallid postion");
+    }
+    else
+    {
+        t->nxt=temp->nxt;
+        temp->nxt=t;
+    }
+    }
+}
+int delete_at_given_location()
+{
+    int pos,ct;
+    struct node *temp,*pre;
+    printf("Enter the location from where you want to delete the data :");
+    scanf("%d",&pos);
+    if(st==NULL)
+    {
+        printf("No linked list");
+    }
+    else
+    {
+        temp=st;
+        pre=st;
+    for(int i=1;i<pos&&temp!=NULL;i++)
+    {
+        pre=temp;
+        temp=temp->nxt;
+    }
+    if(temp==NULL)
+    {
+        printf("Invalid position");
+    }
+    else
+    {
+        printf("%d",temp->data);
+        pre->nxt=temp->nxt;
+        free(temp);
+    }
+    }
+
+    return 0;
+}
+int insert_before_data()
+{
+
+    return 0;
+}
+int insert_after_data()
+{
+    return 0;
+}
+int delete_by_data()
+{
+    int data_to_delete;
+    struct node *temp,*pre;
+    printf("Enter the data the youbwant to delete :");
+    scanf("%d",&data_to_delete);
+    if(st==NULL)
+    {
+        printf("No linked list");
+    }
+    else
+    {
+        temp=st;
+        while(temp->data==data_to_delete)
+            pre=temp;
+            temp=temp->nxt;
+    }
+    pre->nxt=temp->nxt;
+    free(temp);
+}
+
 void traversal()
 {
     struct node *t;
@@ -126,7 +222,6 @@ void traversal()
 
 }
 
-
 int main() {
     int choice;
     do {
@@ -136,8 +231,11 @@ int main() {
         printf("\n 4. Delete at start");
         printf("\n 5. Delete at End");
         printf("\n 6. Delete at given location");
-        printf("\n 7. DISPLAY");
-        printf("\n 8. Exit");
+        printf("\n 7.Insert before data ");
+        printf("\n 8.Insert after data");
+        printf("\n 9.Delete by data");
+        printf("\n 10. DISPLAY");
+        printf("\n 11. Exit");
         printf("\n Enter your choice: ");
         scanf("%d", &choice);
 
@@ -149,22 +247,38 @@ int main() {
             case 2:
                 insert_at_end();
                 break;
+            case 3:
+                insert_at_given_location();
+                break;
             case 4:
                 delete_at_start();
                 break;
             case 5:
                 delete_at_end();
                 break;
+            case 6:
+                delete_at_given_location();
+                break ;
             case 7:
-                traversal();
+                insert_before_data();
                 break;
             case 8:
-                printf("Exiting...\n");
+                insert_after_data();
+                break ;
+            case 9:
+                delete_by_data();
+                break;
+
+            case 10:
+                traversal();
+                break;
+            case 11:
+                printf("Exiting");
                 break;
             default:
                 printf("Invalid choice \n");
         }
-    } while (choice != 8);
+    } while (choice != 11);
 
     return 1;
 }
